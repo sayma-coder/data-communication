@@ -1,0 +1,14 @@
+Router(config)#router eigrp 20
+Router(config-router)#network 192.168.1.0
+Router(config-router)#network 192.168.2.0
+Router(config-router)#netwo
+Router(config-router)#network 192.168.9.0
+Router(config-router)#exit
+Router(config)#exit
+Router(config)#exit
+Router#
+%SYS-5-CONFIG_I: Configured from console by console
+wr
+Building configuration...
+[OK]
+Router#
